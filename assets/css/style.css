@@ -1,0 +1,22 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+  }
+
+  .card {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+  }
